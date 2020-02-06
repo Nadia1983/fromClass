@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="Unit Test Report" tests="1" errors="1" failures="0" time="0:00:13.418000"><testcase classname="SmokeTests" name="test_200_LogIn" time="13.408"><system-out><![CDATA[
+XXXXXXXXX Successful Log in XXXXXXXXX
+]]></system-out><error type="org.sikuli.script.FindFailed"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Sikulix\Lib\unittest\case.py", line 332, in run
+    testMethod()
+  File "C:\mini-framework\Tests\smoke_tests.sikuli\smoke_tests.py", line 15, in test_200_LogIn
+    LogIn.Start("google.com")
+  File "C:\mini-framework\Tests\_lib.sikuli\_lib.py", line 35, in Start
+    wait(Browser_UI.button_Refresh, 5)
+  File "C:\Users\User\AppData\Roaming\Sikulix\Lib\sikuli\Sikuli.py", line 69, in wait
+    return SCREEN.wait(target, timeout)
+FindFailed: FindFailed: button_Refresh.png: (31x26) in S(0)[0,0 1366x768] E:Y, T:3,0
+  Line 2761, in file Region.java
+]]></error></testcase><system-out><![CDATA[]]></system-out><system-err><![CDATA[]]></system-err></testsuite>
